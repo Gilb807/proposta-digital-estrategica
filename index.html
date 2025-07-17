@@ -1,147 +1,150 @@
 <!DOCTYPE html><html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proposta Digital Estratégica</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
-    }body {
-  background-color: #f9f9f9;
-  color: #1a1a1a;
-  padding: 2rem;
-  line-height: 1.6;
-}
-
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  background-color: #fff;
-  border-radius: 16px;
-  padding: 2rem;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin-bottom: 1rem;
-  color: #003366;
-}
-
-h2 {
-  font-size: 1.6rem;
-  margin-top: 2rem;
-  color: #0055aa;
-}
-
-p {
-  margin-bottom: 1.5rem;
-  font-size: 1.05rem;
-}
-
-.bloco ul {
-  list-style: none;
-  padding-left: 1rem;
-}
-
-.bloco ul li {
-  padding: 0.5rem 0;
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-}
-
-.preco {
-  margin-top: 1rem;
-  font-size: 1.2rem;
-  color: #0a0a0a;
-  background-color: #e8f0fe;
-  padding: 1rem;
-  border-left: 5px solid #0055aa;
-  border-radius: 8px;
-}
-
-.preco small {
-  font-size: 0.9rem;
-  color: #444;
-}
-
-.cta {
-  margin-top: 2rem;
-  text-align: center;
-}
-
-.cta a {
-  display: inline-block;
-  background-color: #0055aa;
-  color: #fff;
-  padding: 1rem 2rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  transition: 0.3s ease;
-}
-
-.cta a:hover {
-  background-color: #003366;
-}
-
-.footer {
-  margin-top: 3rem;
-  text-align: center;
-  font-size: 0.9rem;
-  color: #666;
-}
-
+    }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: #f9fafb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      border-bottom: 4px solid #3b82f6;
+    }
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      margin-bottom: 2rem;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.015);
+    }
+    .card h2 {
+      color: #1d4ed8;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style: none;
+      margin-bottom: 1rem;
+    }
+    ul li::before {
+      content: '✓';
+      color: #10b981;
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
+    .price {
+      background: #eff6ff;
+      padding: 1rem;
+      border-radius: 0.75rem;
+      text-align: center;
+      font-weight: 600;
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    .cta {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .cta a {
+      background: #1d4ed8;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 5px 15px rgba(59, 130, 246, 0.4);
+      transition: background 0.3s ease;
+    }
+    .cta a:hover {
+      background: #2563eb;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.875rem;
+      color: #6b7280;
+      margin-top: 4rem;
+      padding-bottom: 2rem;
+    }
+    .badge {
+      background: #facc15;
+      color: #92400e;
+      font-weight: bold;
+      font-size: 0.75rem;
+      padding: 0.3rem 0.6rem;
+      border-radius: 999px;
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
   </style>
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1>Proposta Digital Personalizada</h1>
-    <p>Apresentamos duas opções de pacote para ajudar seu negócio a crescer no digital com estratégia, qualidade e presença de marca.</p><h2>🚀 Pacote Completo</h2>
-<div class="bloco">
+    <p>Escolha o pacote ideal para alavancar sua marca com design, presença e conversão.</p>
+  </header>  <div class="container">
+    <div class="card">
+      <h2>🚀 Pacote Completo <span class="badge">Mais vendido</span></h2>
+      <ul>
+        <li>Site catálogo moderno e responsivo</li>
+        <li>Gestão estratégica de Instagram (12 posts/mês)</li>
+        <li>Criação de identidade visual (logo, paleta e fontes)</li>
+        <li>Configuração do Google Meu Negócio</li>
+        <li>LinkTree profissional integrado</li>
+      </ul>
+      <div class="price">
+        💰 R$ 890,00 à vista ou parcelado <br>
+        <small>*Oferta válida por 24h</small>
+      </div>
+    </div><div class="card">
+  <h2>✨ Pacote Site Vitrine</h2>
   <ul>
-    <li>🌐 Site catálogo com design moderno e responsivo</li>
-    <li>📱 Gestão estratégica de Instagram (12 posts/mês)</li>
-    <li>🧠 Criação de identidade visual (logo, paleta e fontes)</li>
-    <li>📍 Configuração do Google Meu Negócio (SEO Local)</li>
-    <li>📲 LinkTree personalizado</li>
+    <li>Site vitrine responsivo com layout moderno</li>
+    <li>Domínio personalizado (.com) incluso</li>
+    <li>Galeria de portfólio + botão WhatsApp</li>
+    <li>Publicação completa do site no ar</li>
   </ul>
-</div>
-<div class="preco">
-  💰 <strong>R$ 890,00</strong> à vista ou parcelado <br>
-  <small>*Oferta válida por 24h</small>
-</div>
-
-<h2>✨ Pacote Site Vitrine</h2>
-<div class="bloco">
-  <ul>
-    <li>🌐 Site vitrine completo e responsivo</li>
-    <li>🔗 Domínio personalizado (.com)</li>
-    <li>📸 Galeria de portfólio + botão WhatsApp integrado</li>
-    <li>🚀 Colocamos seu site no ar por você</li>
-  </ul>
-</div>
-<div class="preco">
-  💸 <strong>R$ 499,00</strong> à vista <br>
-  <small>*Oferta especial para pagamento imediato</small>
+  <div class="price">
+    💸 R$ 499,00 à vista <br>
+    <small>*Oferta especial para pagamento imediato</small>
+  </div>
 </div>
 
 <div class="cta">
-  <a href="https://wa.me/5527996163425?text=Ol%C3%A1%2C+tenho+interesse+na+proposta+digital+para+meu+neg%C3%B3cio!" target="_blank">
-    📲 Fale agora pelo WhatsApp
-  </a>
+  <a href="https://wa.me/5527996163425?text=Ol%C3%A1%2C+quero+fechar+uma+das+propostas+digitais%21">📲 Quero essa proposta agora</a>
 </div>
 
-<div class="footer">
-  © 2025 Rocha Soluções Digitais • Propostas sob medida para seu negócio
-</div>
-
-  </div>
+  </div>  <footer>
+    © 2025 Rocha Soluções Digitais • Propostas com performance visual e resultado real
+  </footer>
 </body>
 </html>
