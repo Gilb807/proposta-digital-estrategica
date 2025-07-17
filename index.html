@@ -1,191 +1,137 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
+<!DOCTYPE html><html lang="pt-br"><head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfólio Profissional</title>
+  <title>Proposta Digital Exclusiva</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    :root {
-      --bg: #0f111a;
-      --card-bg: rgba(255, 255, 255, 0.05);
-      --glass-blur: blur(20px);
-      --accent: #38bdf8;
-      --text: #f1f5f9;
-      --muted: #94a3b8;
-      --shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    }
-
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: 'Segoe UI', sans-serif;
-    }
+      font-family: 'Inter', sans-serif;
+    }body {
+  background-color: #fff9f5;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
 
-    body {
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
 
-    header {
-      padding: 2rem;
-      text-align: center;
-    }
+h1 {
+  font-size: 2rem;
+  color: #d46aab;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
 
-    header h1 {
-      font-size: 2.5rem;
-      color: var(--accent);
-    }
+h2 {
+  color: #d46aab;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
 
-    header p {
-      color: var(--muted);
-    }
+.bloco {
+  background-color: #faf3f0;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
 
-    .container {
-      max-width: 1200px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      display: grid;
-      gap: 2rem;
-    }
+ul {
+  padding-left: 1.5rem;
+}
 
-    .card {
-      background: var(--card-bg);
-      backdrop-filter: var(--glass-blur);
-      border-radius: 1rem;
-      box-shadow: var(--shadow);
-      padding: 2rem;
-      transition: transform 0.3s ease;
-    }
+li {
+  margin-bottom: 0.5rem;
+}
 
-    .card:hover {
-      transform: translateY(-5px);
-    }
+.preco {
+  background: #ffe5f0;
+  padding: 1rem;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
 
-    .section-title {
-      font-size: 1.75rem;
-      margin-bottom: 1rem;
-      color: var(--accent);
-    }
+.cta {
+  text-align: center;
+  margin-top: 2rem;
+}
 
-    .portfolio-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-    }
+.cta a {
+  background: #d46aab;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
 
-    .portfolio-item {
-      background: var(--card-bg);
-      border-radius: 1rem;
-      overflow: hidden;
-      box-shadow: var(--shadow);
-      transition: transform 0.3s ease;
-    }
+.cta a:hover {
+  background: #b04e8f;
+}
 
-    .portfolio-item img {
-      width: 100%;
-      display: block;
-    }
+.footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #777;
+}
 
-    .portfolio-item:hover {
-      transform: scale(1.03);
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    input, textarea, button {
-      padding: 1rem;
-      border: none;
-      border-radius: 0.5rem;
-      font-size: 1rem;
-    }
-
-    input, textarea {
-      background: #1e293b;
-      color: var(--text);
-    }
-
-    button {
-      background: var(--accent);
-      color: #000;
-      cursor: pointer;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    button:hover {
-      opacity: 0.85;
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
-      color: var(--muted);
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
-    }
   </style>
-</head>
-<body>
-  <header>
-    <h1>Gilberto Souza</h1>
-    <p>Designer | Dev Frontend | Estratégia Digital</p>
-  </header>
-
+</head><body>
   <div class="container">
+    <h1>Proposta Digital Personalizada</h1><p>Apresentamos duas opções de pacote para ajudar seu negócio a crescer no digital com estratégia, qualidade e presença de marca.</p>
 
-    <section class="card">
-      <h2 class="section-title">Sobre Mim</h2>
-      <p>
-        Profissional multidisciplinar com foco em design de impacto, experiência de usuário e construção de soluções digitais modernas. Ajudo empresas e marcas a se posicionarem com clareza, estética e performance.
-      </p>
-    </section>
+<h2>🚀 Pacote Completo</h2>
+<div class="bloco">
+  <ul>
+    <li>🌐 Site catálogo com design moderno e responsivo</li>
+    <li>📱 Gestão estratégica de Instagram (12 posts/mês)</li>
+    <li>🧠 Criação de identidade visual (logo, paleta e fontes)</li>
+    <li>📍 Configuração do Google Meu Negócio (SEO Local)</li>
+    <li>📲 LinkTree personalizado</li>
+  </ul>
+</div>
+<div class="preco">
+  💰 <strong>R$ 890,00</strong> à vista ou parcelado <br>
+  <small>*Oferta válida por 24h</small>
+</div>
 
-    <section class="card">
-      <h2 class="section-title">Portfólio</h2>
-      <div class="portfolio-grid">
-        <div class="portfolio-item"><img src="https://via.placeholder.com/400x300" alt="Projeto 1"></div>
-        <div class="portfolio-item"><img src="https://via.placeholder.com/400x300" alt="Projeto 2"></div>
-        <div class="portfolio-item"><img src="https://via.placeholder.com/400x300" alt="Projeto 3"></div>
-      </div>
-    </section>
+<h2>✨ Pacote Site Vitrine</h2>
+<div class="bloco">
+  <ul>
+    <li>🌐 Site vitrine completo e responsivo</li>
+    <li>🔗 Domínio personalizado (.com)</li>
+    <li>📸 Galeria de portfólio + botão WhatsApp integrado</li>
+    <li>🚀 Colocamos seu site no ar por você</li>
+  </ul>
+</div>
+<div class="preco">
+  💸 <strong>R$ 499,00</strong> à vista <br>
+  <small>*Oferta especial para pagamento imediato</small>
+</div>
 
-    <section class="card">
-      <h2 class="section-title">Solicite um Orçamento</h2>
-      <form id="whatsappForm">
-        <input type="text" id="nome" placeholder="Seu nome" required>
-        <input type="text" id="projeto" placeholder="Descreva o tipo de projeto" required>
-        <textarea id="detalhes" rows="5" placeholder="Detalhes adicionais..." required></textarea>
-        <button type="submit">Enviar via WhatsApp</button>
-      </form>
-    </section>
+<div class="cta">
+  <a href="https://wa.me/5527996163425?text=Ol%C3%A1%2C+tenho+interesse+na+proposta+digital+para+meu+neg%C3%B3cio!" target="_blank">
+    📲 Fale agora pelo WhatsApp
+  </a>
+</div>
+
+<div class="footer">
+  © 2025 Rocha Soluções Digitais • Propostas sob medida para seu negócio
+</div>
 
   </div>
-
-  <footer>
-    &copy; 2025 Gilberto Souza. Todos os direitos reservados.
-  </footer>
-
-  <script>
-    document.getElementById('whatsappForm').addEventListener('submit', function (e) {
-      e.preventDefault();
-      const nome = document.getElementById('nome').value;
-      const projeto = document.getElementById('projeto').value;
-      const detalhes = document.getElementById('detalhes').value;
-      const msg = `Olá, meu nome é ${nome}. Tenho interesse em um projeto: ${projeto}. Detalhes: ${detalhes}`;
-      const url = `https://wa.me/5527996163425?text=${encodeURIComponent(msg)}`;
-      window.open(url, '_blank');
-    });
-  </script>
-</body>
-</html>
+</body></html>
