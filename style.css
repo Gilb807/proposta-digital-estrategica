@@ -70,12 +70,21 @@ header p {
     font-size: 1.8rem;
     display: flex;
     align-items: center;
+    gap: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+.card-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #eaf6ff; /* Fundo suave para o ícone */
 }
 
 .card h2::before {
-    content: "⭐";
-    margin-right: 10px;
-    font-size: 1.2em;
+    /* Removido o ícone de estrela, pois agora usamos a imagem */
+    content: none;
 }
 
 .card ul {
